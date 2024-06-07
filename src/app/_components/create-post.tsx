@@ -38,6 +38,7 @@ export function CreatePost() {
       >
         {createPost.isPending ? "Submitting..." : "Submit"}
       </button>
+      
     </form>
   );
 }
